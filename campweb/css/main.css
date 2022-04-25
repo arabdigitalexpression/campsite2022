@@ -1,0 +1,67 @@
+h1{
+    font-family: 'Tajawal-black', sans-serif;
+}
+table{
+    font-family: 'Tajawal-ExtraLight', sans-serif;
+}
+p{
+    font-family: 'Tajawal-ExtraLight', sans-serif;
+}
+a{
+    font-family: 'Tajawal-ExtraLight', sans-serif;
+}
+.row{
+    margin-top: 5%;
+}
+
+
+ul{
+    font-family: 'Tajawal-ExtraLight', sans-serif;
+
+}
+li{
+    font-family: 'Tajawal-ExtraLight', sans-serif;
+
+}
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    --stripe: #c8e0f3;
+    --bg: #ffffff;
+  
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+      linear-gradient(315deg, var(--bg) 25%, transparent 25%),
+      linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 200px 200px;
+    background-color: var(--stripe);
+}
+#homepage{
+    --stripe: #c8e0f3;
+    --bg: #ffffff;
+}
+#ankaboot{
+    --stripe: #f8f6b9;
+    --bg: #c1e6e5;
+    background-size: 100px 200px;
+}
+#sorqat{
+    --stripe: #93b9f9;
+    --bg: #ffffff;
+    background-size: 300px 100px;
+}
+#ankabootBTN{
+margin-right: 25%; 
+background-color: #235353;
+color: rgb(255, 255, 255); 
+font-weight: bold; 
+font-size: x-large;
+}
+#sorqatBTN{
+    margin-right: 25%; 
+    background-color: #801d3e;
+    color: rgb(255, 255, 255); 
+    font-weight: bold; 
+    font-size: x-large;
+    }
